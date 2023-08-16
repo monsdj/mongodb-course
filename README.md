@@ -23,5 +23,8 @@ mongosh --username root --authenticationDatabase admin --password
 
 ## Récupération de données
 
+// use technocite
+db = db.getSiblingDB ("technocite");
+
 
 
